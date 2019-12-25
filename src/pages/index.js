@@ -1,20 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Carousel from "../components/Carousel"
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import image2 from "../images/IMG_5868.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <section className="primary">
+      <div className="container-flex">
+        <h1 className="primary-heading">Happy Holidays</h1>
+        <img className="primary-photo" src={image2} alt="" />
+        {/* <Carousel /> */}
+        <p className="primary-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, iusto
+          corrupti ut ex libero aliquid.
+        </p>
+      </div>
+    </section>
   </Layout>
 )
 

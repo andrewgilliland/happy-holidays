@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap");
+
+.primary {
+  height: 100vh;
+  background-image: linear-gradient(-200deg, transparent, rgba(0, 0, 0, 0.6)),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/bacon-red.svg);
+  background-position: 0 0, 30% center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-flex {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-heading {
+  color: green;
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 48px;
+  text-shadow: 1px 1px 0 #acccc4, 2px 2px 0 white;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.primary-photo {
+  margin-top: 36px;
+}
+
+.primary-text {
+  color: white;
+  font-family: "Bubblegum Sans", cursive;
+  text-align: center;
+  margin-top: 36px;
+}
