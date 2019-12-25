@@ -2,9 +2,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Carousel from "../components/Carousel"
+// import Carousel from "../components/Carousel"
 
-import "bootstrap/dist/css/bootstrap.min.css"
+// import "bootstrap/dist/css/bootstrap.min.css"
 import image2 from "../images/IMG_5868.jpg"
 
 const IndexPage = () => (
